@@ -1,0 +1,31 @@
+{
+  "name": "simpleblog",
+  "version": "1.0.0",
+  "description": "A simple GraphQL powered blog example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigelhanlon/simpleblog.git"
+  },
+  "keywords": [
+    "simple",
+    "blog",
+    "graphql",
+    "fastify"
+  ],
+  "author": "Nigel Hanlon <nigel@mapwolf.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nigelhanlon/simpleblog/issues"
+  },
+  "homepage": "https://github.com/nigelhanlon/simpleblog#readme",
+  "dependencies": {
+    "fastify": "^0.29.0",
+    "fastify-apollo": "^1.2.0",
+    "graphql": "^0.11.4",
+    "graphql-tools": "^1.2.3"
+  }
+}
