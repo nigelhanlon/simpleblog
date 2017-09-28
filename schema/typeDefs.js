@@ -6,6 +6,7 @@ module.exports = `
         title: String!
         content: String
         tags: [String!]
+        comments: [Comment]
         author: User
         timestamp: Date
         public: Boolean

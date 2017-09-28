@@ -72,5 +72,12 @@ module.exports = {
         post: (obj, args, context) => posts.find( (post) => post.id === args.id ),
         comments: (obj, args, context) => comments.filter( (comment) => comment.postId === args.id ), 
         user: (obj, args, context) => users.find( (user) => user.id === args.id )
+    },
+    Post: {
+        author: (post, args, context) => users.find( (user) => user.id === post.author ),
+        comments: (post, args, context) => comments.filter( (comment) => comment.postId === post.id )
+    },
+    Comment: {
+        author: (comment, args, context) => users.find( (user) => user.id === comment.author )
     }
 };
