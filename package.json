@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nigelhanlon/simpleblog#readme",
   "dependencies": {
-    "fastify": "^0.38.0",
+    "fastify": "^1.1.0",
     "fastify-apollo": "^1.2.0",
     "graphql": "^0.11.4",
     "graphql-tools": "^1.2.3"
